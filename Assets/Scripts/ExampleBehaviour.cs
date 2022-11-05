@@ -30,8 +30,7 @@ public class ExampleBehaviour : MonoBehaviour
             lineMaterial.SetInt("_ZWrite", 0);
         }
     }
-
-    // Will be called after all regular rendering is done
+    
     public void OnGUI()
     {
         CreateLineMaterial();
