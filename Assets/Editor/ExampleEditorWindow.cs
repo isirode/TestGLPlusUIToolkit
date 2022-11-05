@@ -64,7 +64,6 @@ public class ExampleEditorWindow : EditorWindow
         }
     }
 
-    // Will be called after all regular rendering is done
     public void OnGUI()
     {
         CreateLineMaterial();
